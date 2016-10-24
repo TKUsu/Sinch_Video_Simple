@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		612B12812DCD17994B6C1561 /* Pods_Test_Sinch_Video.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE29155C2AF58CF4D42BAF45 /* Pods_Test_Sinch_Video.framework */; };
+		D3242C0B1DBCDFDA00B70B96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3242C0A1DBCDFDA00B70B96 /* AppDelegate.swift */; };
+		D3242C0D1DBCDFDA00B70B96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3242C0C1DBCDFDA00B70B96 /* ViewController.swift */; };
+		D3242C101DBCDFDA00B70B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3242C0E1DBCDFDA00B70B96 /* Main.storyboard */; };
+		D3242C121DBCDFDA00B70B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3242C111DBCDFDA00B70B96 /* Assets.xcassets */; };
+		D3242C151DBCDFDA00B70B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3242C131DBCDFDA00B70B96 /* LaunchScreen.storyboard */; };
+		D3242C211DBD0DA100B70B96 /* SINClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3242C201DBD0DA100B70B96 /* SINClientManager.swift */; };
+		D3242C231DBD0F4000B70B96 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3242C221DBD0F4000B70B96 /* VideoController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48A81F4DA2762EE7B62294D2 /* Pods-Test_Sinch_Video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_Sinch_Video.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test_Sinch_Video/Pods-Test_Sinch_Video.release.xcconfig"; sourceTree = "<group>"; };
+		BCEBD3CE9FABDEB46F6E0098 /* Pods-Test_Sinch_Video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_Sinch_Video.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test_Sinch_Video/Pods-Test_Sinch_Video.debug.xcconfig"; sourceTree = "<group>"; };
+		D3242C071DBCDFDA00B70B96 /* Test_Sinch_Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_Sinch_Video.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3242C0A1DBCDFDA00B70B96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3242C0C1DBCDFDA00B70B96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3242C0F1DBCDFDA00B70B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3242C111DBCDFDA00B70B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3242C141DBCDFDA00B70B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3242C161DBCDFDA00B70B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3242C1C1DBCE11C00B70B96 /* Test_Sinch_Video-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test_Sinch_Video-Bridging-Header.h"; sourceTree = "<group>"; };
+		D3242C201DBD0DA100B70B96 /* SINClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SINClientManager.swift; sourceTree = "<group>"; };
+		D3242C221DBD0F4000B70B96 /* VideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
+		EE29155C2AF58CF4D42BAF45 /* Pods_Test_Sinch_Video.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Sinch_Video.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3242C041DBCDFDA00B70B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612B12812DCD17994B6C1561 /* Pods_Test_Sinch_Video.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		763DE5F79F9834F232833911 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCEBD3CE9FABDEB46F6E0098 /* Pods-Test_Sinch_Video.debug.xcconfig */,
+				48A81F4DA2762EE7B62294D2 /* Pods-Test_Sinch_Video.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3242BFE1DBCDFDA00B70B96 = {
+			isa = PBXGroup;
+			children = (
+				D3242C091DBCDFDA00B70B96 /* Test_Sinch_Video */,
+				D3242C081DBCDFDA00B70B96 /* Products */,
+				763DE5F79F9834F232833911 /* Pods */,
+				D42EB00F3A9F1DB3BC1CE9DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3242C081DBCDFDA00B70B96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3242C071DBCDFDA00B70B96 /* Test_Sinch_Video.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3242C091DBCDFDA00B70B96 /* Test_Sinch_Video */ = {
+			isa = PBXGroup;
+			children = (
+				D3242C0A1DBCDFDA00B70B96 /* AppDelegate.swift */,
+				D3242C201DBD0DA100B70B96 /* SINClientManager.swift */,
+				D3242C221DBD0F4000B70B96 /* VideoController.swift */,
+				D3242C0C1DBCDFDA00B70B96 /* ViewController.swift */,
+				D3242C0E1DBCDFDA00B70B96 /* Main.storyboard */,
+				D3242C111DBCDFDA00B70B96 /* Assets.xcassets */,
+				D3242C131DBCDFDA00B70B96 /* LaunchScreen.storyboard */,
+				D3242C161DBCDFDA00B70B96 /* Info.plist */,
+				D3242C1C1DBCE11C00B70B96 /* Test_Sinch_Video-Bridging-Header.h */,
+			);
+			path = Test_Sinch_Video;
+			sourceTree = "<group>";
+		};
+		D42EB00F3A9F1DB3BC1CE9DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE29155C2AF58CF4D42BAF45 /* Pods_Test_Sinch_Video.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3242C061DBCDFDA00B70B96 /* Test_Sinch_Video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3242C191DBCDFDA00B70B96 /* Build configuration list for PBXNativeTarget "Test_Sinch_Video" */;
+			buildPhases = (
+				2B63A547D8BC8C5C97336156 /* [CP] Check Pods Manifest.lock */,
+				D3242C031DBCDFDA00B70B96 /* Sources */,
+				D3242C041DBCDFDA00B70B96 /* Frameworks */,
+				D3242C051DBCDFDA00B70B96 /* Resources */,
+				461C56D5449E08BA9DF3F9C2 /* [CP] Embed Pods Frameworks */,
+				6EB8DD575924C52539748343 /* [CP] Copy Pods Resources */,
+				D3F2D4EF1DBD329B0030A00F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test_Sinch_Video;
+			productName = Test_Sinch_Video;
+			productReference = D3242C071DBCDFDA00B70B96 /* Test_Sinch_Video.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3242BFF1DBCDFDA00B70B96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = sujustin;
+				TargetAttributes = {
+					D3242C061DBCDFDA00B70B96 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 73JT68725H;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D3242C021DBCDFDA00B70B96 /* Build configuration list for PBXProject "Test_Sinch_Video" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3242BFE1DBCDFDA00B70B96;
+			productRefGroup = D3242C081DBCDFDA00B70B96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3242C061DBCDFDA00B70B96 /* Test_Sinch_Video */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3242C051DBCDFDA00B70B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3242C151DBCDFDA00B70B96 /* LaunchScreen.storyboard in Resources */,
+				D3242C121DBCDFDA00B70B96 /* Assets.xcassets in Resources */,
+				D3242C101DBCDFDA00B70B96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B63A547D8BC8C5C97336156 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		461C56D5449E08BA9DF3F9C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test_Sinch_Video/Pods-Test_Sinch_Video-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EB8DD575924C52539748343 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test_Sinch_Video/Pods-Test_Sinch_Video-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F2D4EF1DBD329B0030A00F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 8a93dfdac30805da9b9a8a94c46d0e8662b81bee 5811715b64bf375fba0b335f7123c803e80d0cc88a5e9508adae3153dbc60d01";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3242C031DBCDFDA00B70B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3242C0D1DBCDFDA00B70B96 /* ViewController.swift in Sources */,
+				D3242C0B1DBCDFDA00B70B96 /* AppDelegate.swift in Sources */,
+				D3242C211DBD0DA100B70B96 /* SINClientManager.swift in Sources */,
+				D3242C231DBD0F4000B70B96 /* VideoController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3242C0E1DBCDFDA00B70B96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3242C0F1DBCDFDA00B70B96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3242C131DBCDFDA00B70B96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3242C141DBCDFDA00B70B96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3242C171DBCDFDA00B70B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3242C181DBCDFDA00B70B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3242C1A1DBCDFDA00B70B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEBD3CE9FABDEB46F6E0098 /* Pods-Test_Sinch_Video.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 73JT68725H;
+				INFOPLIST_FILE = Test_Sinch_Video/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sujustin.Test-Sinch-Video";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Test_Sinch_Video/Test_Sinch_Video-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D3242C1B1DBCDFDA00B70B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A81F4DA2762EE7B62294D2 /* Pods-Test_Sinch_Video.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 73JT68725H;
+				INFOPLIST_FILE = Test_Sinch_Video/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sujustin.Test-Sinch-Video";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Test_Sinch_Video/Test_Sinch_Video-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3242C021DBCDFDA00B70B96 /* Build configuration list for PBXProject "Test_Sinch_Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3242C171DBCDFDA00B70B96 /* Debug */,
+				D3242C181DBCDFDA00B70B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3242C191DBCDFDA00B70B96 /* Build configuration list for PBXNativeTarget "Test_Sinch_Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3242C1A1DBCDFDA00B70B96 /* Debug */,
+				D3242C1B1DBCDFDA00B70B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3242BFF1DBCDFDA00B70B96 /* Project object */;
+}
