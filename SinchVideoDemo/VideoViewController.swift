@@ -36,12 +36,6 @@ class VideoViewController: UIViewController, SINCallDelegate {
 
         // Do any additional setup after loading the view.
         videoController = SINClientManager.shared.client?.videoController();
-        
-        if let lv = videoController?.localView() {
-            lv.contentMode = .scaleAspectFill
-            lv.frame = self.localView.bounds
-            self.localView.addSubview(lv)
-        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -68,7 +62,11 @@ class VideoViewController: UIViewController, SINCallDelegate {
                 
                 self.call = call
                 
-                
+                if let lv = videoController?.localView() {
+                    lv.contentMode = .scaleAspectFill
+                    lv.frame = self.localView.bounds
+                    self.localView.addSubview(lv)
+                }
             }
         }
     }
@@ -78,9 +76,16 @@ class VideoViewController: UIViewController, SINCallDelegate {
     }
     
     func didReceiveIncomingCall(_ notification: Notification) {
+        if let lv = videoController?.localView() {
+            lv.contentMode = .scaleAspectFill
+            lv.frame = self.localView.bounds
+            self.localView.addSubview(lv)
+        }
+        
         if let call = notification.object as? SINCall {
             self.incomingCall = call
             
+            call.delegate = self
             call.answer()
         }
     }
